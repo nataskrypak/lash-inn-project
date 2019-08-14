@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
     --main-color: black;
     --accent-color: #f44c7f;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    max-width: 980;
+    max-width: 980px;
     margin: auto;
     scroll-behavior: smooth;
 }
@@ -23,3 +24,39 @@ button {
     /*height: 2rem;*/
 }
 
+@media (min-width 550px) {
+
+}
+
+      /*Top navigation: search, logo, icons*/
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .top-logo {
+    text-align: left;
+}
+header .logo-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.search {
+    display: flex;
+    align-items: center;
+
+}
+.top-icons {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+}
+.cart {
+    margin: 5px;
+}
+.login {
+    margin: 5px;
+}

@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lash Inn</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
@@ -18,26 +18,27 @@
 
     <!--Top navigation: search, logo, login, basket -->
         <div class="top-nav">
-            <article class="search">
+            <a class="top-logo" href="index.html"><img class="logo-picture" src="img/logo-black.png" alt="logo-picture"></a>
+            <div class="search">
                 <input type="search" name="Пошук" placeholder="Пошук по сайту">
                 <input type="submit" value="Знайти">
-            </article>
-            <a class="top-logo" href="index.html"><img class="logo" src="/logo-black.png" alt="logo-black"></a>
-            <a type="button" class="basket">#</a>
-            <a type="button" class="login">#</a>
+            </div>
+            <div class="top-icons">
+                <a type="button" class="cart">#</a>
+                <a type="button" class="login">#</a>
+            </div>
         </div>
 
     <!--Navbar -->
         <nav>
             <ul class="navbar">
-                <li><a href="shop.html">Магазин</li>
-                <li><a href=".education.html">навчаня</li>
-                <li><a href="services.html">послуги</li>
-                <li><a href="aboutus.html">про нас</li>
-                <li><a href="contacts.html">контакти</li>
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="education.html">навчання</a></li>
+                <li><a href="services.html">послуги</a></li>
+                <li><a href="aboutus.html">про нас</a></li>
+                <li><a href="contacts.html">контакти</a></li>
             </ul>
         </nav>
-
     <!--Slider -->
         <div class="slider">
             <h2>Студія краси та навчальний центр</h2>
@@ -75,7 +76,7 @@
         <footer>
 
         </footer>
-
+            <script src="js/index.js"></script>
             <script src="https://code.jquery.com/jquery-3.4.1.min.js"
                 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
                 crossorigin="anonymous"></script>

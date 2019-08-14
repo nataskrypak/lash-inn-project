@@ -11,49 +11,30 @@ header .top-phone-mail {
     padding: 5px 10px 5px 10px;
 }
 
-/*header on white background - logo, search, profile*/
-
-/*header .logo-profile {
-    display: flex;
-    justify-content: space-between;
-    color: var(--main-color);
-    margin: 0;
-    padding: 20px;
-    }
-
-header .logo {
-    width: 40%;
-}*/
-
-                       /*Burger menu*/
+                       /*Navbar*/
 header .navbar {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     align-items: center;
     background-color: #f44c7f;
-    padding: 0;
+    padding: 15px;
     margin: 0;
-    height: 3rem;
 }
 header .navbar a {
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     border: 1px solid transparent;
     padding: 5px;
+    margin: 0;
 }
 
 header .navbar a:hover {
     border: 1px solid black;
-
-@media only screen and (min-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        display: none;
-        }
 }
+
 
 /*header .banner {
     min-height: 550px;
