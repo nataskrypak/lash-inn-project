@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+:root {
+    --main-color: black;
+    --accent-color: #f44c7f;
+}
+
+body {
+    max-width: 980;
+    margin: auto;
+    scroll-behavior: smooth;
+}
+
+/* style for all buttons */
+button {
+    background: radial-gradient(white, #F44c7f);
+    color: var(--main-color);
+    margin: 8px;
+    border: black, 2px;
+    /* border-radius: 8%;*/
+    cursor: pointer;
+    width: 20%;
+    /*height: 2rem;*/
+}
+

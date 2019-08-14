@@ -1,0 +1,64 @@
+header .top-contacts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+header .top-phone-mail {
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+}
+
+/*header on white background - logo, search, profile*/
+
+/*header .logo-profile {
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-color);
+    margin: 0;
+    padding: 20px;
+    }
+
+header .logo {
+    width: 40%;
+}*/
+
+                       /*Burger menu*/
+header .navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f44c7f;
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+}
+header .navbar a {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header .navbar a:hover {
+    border: 1px solid black;
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        display: none;
+        }
+}
+
+/*header .banner {
+    min-height: 550px;
+    background-image: url(../img/fb-slider.jpg);
+    background-size: cover;
+    background-position: center;
+
+}*/
