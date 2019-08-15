@@ -28,35 +28,9 @@ button {
 
 }
 
-      /*Top navigation: search, logo, icons*/
-.top-nav {
-    display: flex;
-    justify-content: space-between;
-}
+                /*Footer*/
 
-header .top-logo {
-    text-align: left;
-}
-header .logo-picture {
+.footer {
+    background-color: var(--main-color);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-}
-.search {
-    display: flex;
-    align-items: center;
-
-}
-.top-icons {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    justify-content: center;
-}
-.cart {
-    margin: 5px;
-}
-.login {
-    margin: 5px;
 }

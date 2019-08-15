@@ -11,6 +11,56 @@ header .top-phone-mail {
     padding: 5px 10px 5px 10px;
 }
 
+     /*Top navigation: search, logo, icons*/
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .top-logo {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+header .logo-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+header .top-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+.icons-cart-login {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: flex-end;
+}
+.cart {
+    margin: 5px;
+}
+.login {
+    margin: 5px;
+}
+@media (max-width: 500px) {
+    .top-icons {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:400px) {
+    .top-nav {
+        flex-wrap: wrap;
+    }
+}
                        /*Navbar*/
 header .navbar {
     display: flex;
@@ -34,12 +84,22 @@ header .navbar a {
 header .navbar a:hover {
     border: 1px solid black;
 }
+                   /*Slider*/
 
-
-/*header .banner {
+header .slider {
     min-height: 550px;
-    background-image: url(../img/fb-slider.jpg);
+    background-image: url(../img/slider.jpg);
     background-size: cover;
-    background-position: center;
-
-}*/
+    background-position: left;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+header .slider-button {
+    margin: 10px;
+}
+header .slider-title {
+    color: white;
+    font-size: 3rem;
+    margin: 0 10px 20px 10px;
+}

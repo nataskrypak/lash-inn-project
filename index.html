@@ -15,20 +15,20 @@
             <p class="top-phone-mail">+380999999999</p>
             <p class="top-phone-mail">mail@gmail.com</p>
         </div>
-
     <!--Top navigation: search, logo, login, basket -->
         <div class="top-nav">
             <a class="top-logo" href="index.html"><img class="logo-picture" src="img/logo-black.png" alt="logo-picture"></a>
-            <div class="search">
-                <input type="search" name="Пошук" placeholder="Пошук по сайту">
-                <input type="submit" value="Знайти">
-            </div>
             <div class="top-icons">
-                <a type="button" class="cart">#</a>
-                <a type="button" class="login">#</a>
+                <div class="search">
+                    <input type="search" name="Пошук" placeholder="Пошук по сайту">
+                    <input type="submit" value="Знайти">
+                </div>
+                <div class="icons-cart-login">
+                    <a type="button" class="cart">#</a>
+                    <a type="button" class="login">#</a>
+                </div>
             </div>
         </div>
-
     <!--Navbar -->
         <nav>
             <ul class="navbar">
@@ -41,8 +41,10 @@
         </nav>
     <!--Slider -->
         <div class="slider">
-            <h2>Студія краси та навчальний центр</h2>
-            <button name="book-online" type="button">Онлайн запис</button>
+            <div class=slider-button>
+                <h2 class="slider-title">Студія краси та навчальний центр</h2>
+                <button onclick="bookOnline" name="book-online" class="button">Онлайн запис</buttonn>
+            </div>
         </div>
     </header>
 
@@ -73,14 +75,14 @@
 
         <!-- -->
 
-        <footer>
-
-        </footer>
-            <script src="js/index.js"></script>
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-                crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <footer class="footer">
+        <p>Facebook and instagram</p>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
