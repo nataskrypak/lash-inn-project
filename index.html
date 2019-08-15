@@ -43,25 +43,65 @@
         <div class="slider">
             <div class=slider-button>
                 <h2 class="slider-title">Студія краси та навчальний центр</h2>
-                <button onclick="bookOnline" name="book-online" class="button">Онлайн запис</buttonn>
+                <button onclick="window.location.href = 'https://beauty.dikidi.net/uk/record/115105';" name="book-online" class="button" id="top-button-book">Онлайн запис</button>
             </div>
         </div>
     </header>
-
-    <!--Main part -->
-    <main>
-
-        <!--Shop -->
-
-        <section>shop</section>
-
-        <!--Education -->
-
-        <section>education</section>
-
+                      <!--Main part -->
+                     <!--Education -->
+    <h1 class="h1">НАВЧАННЯ</h1>
+    <div class="bd-example">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel1cutwide.png" class="d-block w-100" alt="base-course-carousel">
+                    <div class="carousel-caption">
+                        <h5>Базовий курс + 2д "Lash Start"</h5>
+                        <p>Курс для початківців основ класичного нарощування вій та 2д</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel2cutwide.png" class="d-block w-100" alt="lamination-course-carousel">
+                    <div class="carousel-caption">
+                        <h5>Оновлений курс ламінування вій + Ботокс "Lash Lifting"</h5>
+                        <p>Для початківців, які хочуть освоїти професію ламімейкера</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel3cutwide.png" class="d-block w-100" alt="volume-course-carousel">
+                    <div class="carousel-caption">
+                        <h5>Курс об'ємного нарощування "Lash Volume"</h5>
+                        <p>Для майстрів, які володіють основними базовими навичками нарощування тривалість до 2.5год</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel4cutwide.jpg" class="d-block w-100" alt="kim-course-carousel">
+                    <div class="carousel-caption">
+                        <h5 id="carousel-caption-bl">Курс фантазійних технік " Kim Lash Style"</h5>
+                        <p id="carousel-caption-bl">Для майстрів з досвідом, які хочуть освоїти складні техніки: Кайлі, Кім, антиплавну лінію, контурне нарощування, а також колорування вій</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <button name="signup-to-course" type="button">Записатися на курс</button>
         <!--Services -->
 
-        <section>services</section>
+    <h1 class="h1">ПОСЛУГИ</h1>
 
         <!--About us -->
 
@@ -70,8 +110,6 @@
         <!--Bottom contacts -->
 
         <section>contacts</section>
-
-        </main>
 
         <!-- -->
 
