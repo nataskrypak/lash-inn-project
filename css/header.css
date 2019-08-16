@@ -93,7 +93,7 @@ header .slider {
     background-position: left;
     display:flex;
     justify-content: left;
-    align-items: center;
+    align-items: flex-end;
 }
 header .slider-button {
     margin: 10px;
